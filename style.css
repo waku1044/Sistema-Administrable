@@ -1,0 +1,39 @@
+:root{
+
+}
+.container-fluid{
+    display : grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "productos productos productos"
+    "info info info"
+    "footer footer footer"
+    ;
+
+}
+.header{
+    grid-area: header;
+    background: rgb(93, 109, 126 );
+    padding: 10px 20px;
+    color: aquamarine;
+    font-weight: 500    ;
+}
+.nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: rgb(240, 178, 122 );
+}
+.productos{
+    grid-area: productos;
+    background: rgb(72, 201, 176);
+}
+.info{
+    grid-area: info;
+}
+.footer{
+    grid-area: footer;
+}
