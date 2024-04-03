@@ -6,3 +6,4 @@ Sistema Administrable cuenta con :
 5_ Eliminar Product.
 6_ Ingresos / Ventas
 7_ Egresos / Gastos
+8_ Stock
